@@ -1,29 +1,41 @@
-# Django
-*.pyc
-*~
-__pycache__
-db.sqlite3
-migrations/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
 
-# Virtual Environment
-venv/
-blogenv/
+# Virtual env
+.venv/
 env/
+venv/
 ENV/
 
-# IDE
+# IDEs / editors
 .vscode/
 .idea/
 *.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
+# Django / DRF
 *.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
 
-# Environment variables
+# Environment
 .env
-.env.local
+*.secret
+secrets.json
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
