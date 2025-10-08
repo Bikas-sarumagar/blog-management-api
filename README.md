@@ -27,5 +27,5 @@ A complete Blog API built with Django REST Framework featuring authentication, p
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Bikas-sarumagar/blog-management-api.git
 cd blog_project
